@@ -1,12 +1,13 @@
 import React from "react";
 
+import RoutesPage from "./routes/routes";
+
 function App() {
   return (
     <div className='App'>
-      <h2>this is App</h2>
+      <RoutesPage />
     </div>
   );
 }
 
 export default App;
-  
