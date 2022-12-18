@@ -7,11 +7,13 @@ import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import SingleProduct from "../pages/SingleProduct";
 import Error from "../pages/Error";
+import Header from "../components/Header";
 
 function RoutesPage() {
   return (
     <div>
       <Router>
+        <Header />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
