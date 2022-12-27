@@ -6,7 +6,7 @@ import Cart from "../pages/Cart";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import SingleProduct from "../pages/SingleProduct";
-import Error from "../pages/Error";
+import Error from "../pages/ErrorPage";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
